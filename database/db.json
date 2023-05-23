@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Sandra",
+      "apellido": "Rojas",
+      "email": "sandra.rojase@gmail.com",
+      "password": "123456",
+      "token": "47tYY77hpo3709igDDfr",
+      "role": "admin"
+    },
+    {
+      "nombre": "Francis",
+      "apellido": "Diaz",
+      "email": "francis.diaz@gmail.com",
+      "password": "123456",
+      "token": "7ytuUIPcvt422WSSaazzasgyhdhw",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "nombre": "Jhon",
+      "apellido": "Aguiar",
+      "email": "jhon@gmail.com",
+      "password": "123456",
+      "token": "7ytu09gffaazzasgyhdhw",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 2,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 3,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "description": "Curso de Angular con duración de 2 meses."
+    },
+    {
+      "id": 2,
+      "nombre": "Desarrollo Web",
+      "description": "Curso de Desarrollo Web con duración de 2 meses."
+    },
+    {
+      "id": 3,
+      "nombre": "Desarrollo Javascript",
+      "description": "Curso de Desarrollo Javascript con duración de 2 meses."
+    }
+  ],
+  "inscriptions": [
+    {
+      "id": 2,
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 3
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "id": 3,
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 1,
+      "nombre": "Nidia",
+      "apellido": "Mora",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    }
+  ]
+}
